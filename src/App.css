@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #946a1c;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +24,90 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.station-form{
+  position: absolute;
+  left: 3%;
+  border: bisque 3px solid;
+  block-size: 50%;
+  top: 20%;
+  padding-block-start: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+button{
+  background-color: aliceblue;
+  padding-block-start: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-block-end: 15px;
+  border-radius: 12px;
+  margin-block-start: 15px;
 }
+
+select, #time, #date{
+  width: 250px;
+  font-size: medium;
+}
+
+.date, .time, .station-name{
+  margin-block-start: 25px;
+}
+
+
+label{
+  font-size: large;
+}
+td, th{
+  padding: 5px;
+ }
+ thead {color:rgb(224, 134, 16);}
+ tbody {color:rgb(1, 1, 10);}
+
+ table, th, td{
+  border: 1px solid black;
+  }
+
+.demand_table{
+  table-layout: fixed;
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  font-size: large;
+  overflow: hidden;
+}
+.demand_table th td {
+  border: 1px solid black;
+ }
+
+ .stations_table{
+  width: auto;
+  display: block;
+  text-align: center;
+  float: right;
+  width: 800px;
+  margin-right: 10%;
+  margin-top: 3%;
+ }
+ .stations_table tbody{
+  display: block;
+  table-layout: fixed;
+  height: 600px; 
+  overflow: auto;
+  font-size: large;
+ }
+
+ .stations_table thead, th, td{
+  width: 200px;
+ }
+
+
+h2{
+  align-self: start;
+  text-align: left;
+  padding-left: 3%;
+}
+
+

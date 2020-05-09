@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/nikhil/Desktop/bike-sharing/env/bin/python3.8",
+    "python.linting.pylintArgs": ["--load-plugins", "pylint-flask"]
+}

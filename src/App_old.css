@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #946a1c;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.station-form{
+  position: absolute;
+  left: 3%;
+  border: bisque 3px solid;
+  block-size: 50%;
+  top: 20%;
+  padding-block-start: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+button{
+  background-color: aliceblue;
+  padding-block-start: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-block-end: 15px;
+  border-radius: 12px;
+  margin-block-start: 15px;
+}
+
+select, #time, #date{
+  width: 250px;
+  font-size: medium;
+}
+
+.date, .time, .station-name{
+  margin-block-start: 25px;
+}
+
+
+label{
+  font-size: large;
+}
+
+thead {color:rgb(224, 134, 16);}
+tbody {color:rgb(1, 1, 10);}
+th, td {
+ border: 1px solid black;
+ padding: 10px;
+}
+table{
+  table-layout: fixed;
+  position: fixed;
+  right: 20%;
+  top: 30%;
+  font-size: large;
+}
+
+table.tables { table-layout:fixed; }
+table.tables td { overflow: hidden; }
+
+h2{
+  align-self: start;
+  text-align: left;
+  padding-left: 3%;
+}
+
+
